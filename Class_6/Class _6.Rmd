@@ -1,0 +1,20 @@
+---
+title: "Class 6"
+author: "Daniel Nguyen"
+date: "January 24, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Section 1: Reading files again
+
+Here we are going to try using the **read.table()** functio and friends to read some example flat files.
+
+```{r}
+plot(1:10)
+```
+

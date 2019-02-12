@@ -1,0 +1,23 @@
+---
+title: "Class_7"
+author: "Daniel Nguyen"
+date: "January 29, 2019"
+output: html_document
+---
+
+
+```{r}
+both_na <- function(x, y) {
+  if (length(x) != length(y)){
+    stop("x and y should be vectors of the same length!")
+  }
+  message("Found ", sum(is.na(x) & is.na(y)), " NA's at position(s):", paste(which(is.na(x) & is.na(y)), collapse = ", "))
+}
+```
+
+```{r}
+x = c(1, NA, NA)
+y = c(NA, NA, NA)
+both_na(x,y)
+```
+
