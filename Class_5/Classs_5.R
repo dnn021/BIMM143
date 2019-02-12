@@ -1,4 +1,3 @@
-
 #' ---
 #' title: "Lecture 5 Hands-On"
 #' author: "Daniel Nguyen"
