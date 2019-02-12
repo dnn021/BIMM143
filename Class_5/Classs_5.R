@@ -1,10 +1,13 @@
-#Class 5 - R Graphics Intro
 
 #' ---
 #' title: "Lecture 5 Hands-On"
 #' author: "Daniel Nguyen"
 #' date: "January 22nd, 2019"
+#' output: github_document
 #' ---
+
+#Class 5 - R Graphics Intro
+
 
 #First Boxplot
 x <- rnorm(1000,0)
